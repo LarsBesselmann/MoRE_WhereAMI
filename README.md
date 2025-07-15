@@ -34,7 +34,7 @@ Included with the demo, is a new version of the Mod Reports application that is 
 1. Create a working directory and download the project
 
 		mkdir -p ~/Student/labs
-		git clone https://github.com/LarsBesselmann/sampleProjects.git ~/Student/labs
+		git clone https://github.com/LarsBesselmann/MoRE_WhereAMI.git ~/Student/labs
 
 2. Switch to the directory WhereAmI_MoRE_Demo and uzip the initial project
 
