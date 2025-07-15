@@ -38,7 +38,7 @@ Included with the demo, is a new version of the Mod Reports application that is 
 
 2. Switch to the directory WhereAmI_MoRE_Demo and uzip the initial project
 
-		cd ~/Student/labs/WhereAmI_MoRE_Demo
+		cd ~/Student/labs/WhereAmI_MoRE_Demo_assets
 		unzip WhereAmI-2.0.0-Project.zip
 
 3. Switch to the WhereAmI directory 
