@@ -1,4 +1,4 @@
-# How to demo Modernized Runtime Extension for Java End-to-End - DRAFT
+# How to demo Modernized Runtime Extension for Java End-to-End
 
 The following guide should help to do a simple end-to-end demo.
 Main steps:
