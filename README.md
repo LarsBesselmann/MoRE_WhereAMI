@@ -36,7 +36,7 @@ Included with the demo, is a new version of the Mod Reports application that is 
 		mkdir -p ~/Student/labs
 		git clone https://github.com/LarsBesselmann/MoRE_WhereAMI.git ~/Student/labs
 
-2. Switch to the directory WhereAmI_MoRE_Demo and uzip the initial project
+2. Switch to the directory WhereAmI_MoRE_Demo_assets and uzip the initial project
 
 		cd ~/Student/labs/WhereAmI_MoRE_Demo_assets
 		unzip WhereAmI-2.0.0-Project.zip
@@ -69,12 +69,12 @@ Included with the demo, is a new version of the Mod Reports application that is 
 
 2. Create a tWAS cluster called tWASCluster1 and two members (tWASMember1, tWASMember2), one on each node.
 
-		~/IBM/WebSphere/AppServer/profiles/Dmgr01/bin/wsadmin.sh -lang jython -user techzone -password IBMDem0s! -f ~/Student/labs/WhereAmI_MoRE_Demo/setupScripts/tWASCluster_create.py 
+		~/IBM/WebSphere/AppServer/profiles/Dmgr01/bin/wsadmin.sh -lang jython -user techzone -password IBMDem0s! -f ~/Student/labs/WhereAmI_MoRE_Demo_assets/setupScripts/tWASCluster_create.py 
 
 3. Install the generated application war to the tWAS cluster. During installation, adjust the context root to **/tWAS**.
 
 
-		~/IBM/WebSphere/AppServer/profiles/Dmgr01/bin/wsadmin.sh -lang jython -user techzone -password IBMDem0s! -f ~/Student/labs/WhereAmI_MoRE_Demo/setupScripts/tWASCluster_WhereAmI_install.py 
+		~/IBM/WebSphere/AppServer/profiles/Dmgr01/bin/wsadmin.sh -lang jython -user techzone -password IBMDem0s! -f ~/Student/labs/WhereAmI_MoRE_Demo_assets/setupScripts/tWASCluster_WhereAmI_install.py 
 
 
 4. 	Access via browser the WebSphere Admin Console via URL: https://localhost:9043/ibm/console, User ID: techzone, password: **IBMDem0s!**
@@ -95,7 +95,7 @@ From the Admin Console, set the console preferences to enable command assistance
 
 	Use either the Admin Console or the following script:
 
-		~/IBM/WebSphere/AppServer/profiles/Dmgr01/bin/wsadmin.sh -lang jython -user techzone -password IBMDem0s! -f ~/Student/labs/WhereAmI_MoRE_Demo/setupScripts/tWASCluster_start.py 
+		~/IBM/WebSphere/AppServer/profiles/Dmgr01/bin/wsadmin.sh -lang jython -user techzone -password IBMDem0s! -f ~/Student/labs/WhereAmI_MoRE_Demo_assets/setupScripts/tWASCluster_start.py 
 
 7. Verify that the application has been started.
 
@@ -380,11 +380,11 @@ You should have seen how easy it can be to migrate an application from tradition
 
 1. Uninstall the WhereAmI application
 
-		~/IBM/WebSphere/AppServer/profiles/Dmgr01/bin/wsadmin.sh -lang jython -user techzone -password IBMDem0s! -f ~/Student/labs/WhereAmI_MoRE_Demo/setupScripts/tWASCluster_WhereAmI_uninstall.py 
+		~/IBM/WebSphere/AppServer/profiles/Dmgr01/bin/wsadmin.sh -lang jython -user techzone -password IBMDem0s! -f ~/Student/labs/WhereAmI_MoRE_Demo_assets/setupScripts/tWASCluster_WhereAmI_uninstall.py 
 
 2. Delete the tWAS cluster called tWASCluster1 and the two members (tWASMember1, tWASMember2).
 
-		~/IBM/WebSphere/AppServer/profiles/Dmgr01/bin/wsadmin.sh -lang jython -user techzone -password IBMDem0s! -f ~/Student/labs/WhereAmI_MoRE_Demo/setupScripts/tWASCluster_delete.py 
+		~/IBM/WebSphere/AppServer/profiles/Dmgr01/bin/wsadmin.sh -lang jython -user techzone -password IBMDem0s! -f ~/Student/labs/WhereAmI_MoRE_Demo_assets/setupScripts/tWASCluster_delete.py 
 
 3. Stop the IBM HTTP Server via command
 
