@@ -151,7 +151,7 @@ From the Admin Console, set the console preferences to enable command assistance
 
 	<kbd>![](./images/media/AMA_Visualization.png)</kbd>
 
-6. Switch to the **Assessment** tab that the application can be migrated to MoRE but has some issues that must be fixed.
+6. Switch to the **Assessment** tab and you can see that the application can be migrated to MoRE but has some issues that must be fixed.
 
 	<kbd>![](./images/media/AMA_Assessment.png)</kbd>
 
@@ -182,7 +182,7 @@ From the Admin Console, set the console preferences to enable command assistance
 
 ### Demo the assessment via AMA
 
-1. Explain that the data colection has been created before to save time
+1. Explain that the data collection has been created before to save time
 
 2. Show in the **Visualization** tab that there are no dependencies to other applications
 
