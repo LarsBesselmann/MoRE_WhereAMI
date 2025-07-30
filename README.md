@@ -19,9 +19,9 @@ MoRE provides the capability to continue using traditional WebSphere Application
 
 In this demo, you will show how to extend a WebSphere ND Cell, using the MoRE feature pak, for managed Liberty servers to manage and run Java 17 / Jakarta EE 10 (subset) applications using the familiar WebSphere administrative mode and admin console.
 
-The demo first shows an example application “Mod  Resorts” running in WebSphere ND 9.0.23. The application is a simple Java 8 application using JEE 7 APIs. 
+The demo first shows an example application “WhereAmI” running in WebSphere ND 9.0.23. The application is a simple Java 8 application using JEE 7 APIs. 
 
-Included with the demo, is a new version of the Mod Reports application that is built using Java 17 and Jakarta 10 EE APIs, which are supported in the managed Liberty Servers (MoRE).  
+Included with the demo, is a new version of the WhereAmI application that is built using Java 17 and Jakarta 10 EE APIs, which are supported in the managed Liberty Servers (MoRE).  
 
 
 
@@ -45,7 +45,7 @@ Included with the demo, is a new version of the Mod Reports application that is 
 
 		cd WhereAmI
 
-4. As the modresorts project depends on was_public.jar, you must make it visible to maven to avoid build failures. Run the following command 
+4. As the WhereAMI project depends on was_public.jar, you must make it visible to maven to avoid build failures. Run the following command 
 
    	    mvn install:install-file -Dfile=./was_dependency/was_public.jar -DpomFile=./was_dependency/was_public-9.0.0.pom
 
