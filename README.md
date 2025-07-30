@@ -9,6 +9,8 @@ Main steps:
 
 It is based on the MoRE TechZone environment:
 https://techzone.ibm.com/collection/mo-re--ama-demos-and-environment-2q25-release
+Request environment via link:
+https://techzone.ibm.com/my/reservations/create/685d6521be320b834e0e117d
 
 
 ## Introduction
