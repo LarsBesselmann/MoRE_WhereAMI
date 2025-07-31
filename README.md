@@ -209,7 +209,7 @@ From the Admin Console, set the console preferences to enable command assistance
 
 1. In a terminal window, switch to the WhereAmI directory and open VS Code
 
-		cd WhereAmI_JavaEE_Project/WhereAmI
+		cd ~/Student/labs/WhereAmI_MoRE_Demo_assets/WhereAmI
 		code .
 
 2. Change in the pom.xml file the version from 2.0.0 to 2.0.1
