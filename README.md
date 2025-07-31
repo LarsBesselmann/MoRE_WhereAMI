@@ -1,3 +1,4 @@
+# !!! The lab is outdated !!!
 The demo/lab is outdated. Please use instead the lab at
 https://github.com/LarsBesselmann/MoRE_WhereAMI_Lab
 
