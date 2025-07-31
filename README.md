@@ -1,3 +1,8 @@
+The demo/lab is outdated. Please use instead the lab at
+https://github.com/LarsBesselmann/MoRE_WhereAMI_Lab
+
+
+
 # How to demo Modernized Runtime Extension for Java End-to-End
 
 The following guide should help to do a simple end-to-end demo.
